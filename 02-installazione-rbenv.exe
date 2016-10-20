@@ -1,0 +1,21 @@
+echo "Cloning del repository"
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+
+echo "Entro nella directory ~/rbenv"
+cd ~/.rbenv
+
+echo "Eseguo il programma src/configure"
+src/configure
+
+echo "Compilo il rbenv"
+make -C src
+
+echo "ATTENZIONE!!! Le seguenti due righe potrebbero cambiare su sistemi diversi"
+echo "Aggiorno la variabile d'ambiente PATH andando ad aggiungere una riga in ~/.bashrc"
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+
+echo "Le seguenti istruzioni vanno inserite in ~/.bashrc"
+~/.rbenv/bin/rbenv init
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+
+echo "Logout e poi login"

@@ -1,0 +1,19 @@
+sudo apt-get update
+
+echo "Aggiungo il supporto per la lingua Italiana se non fosse già installato"
+sudo dpkg-reconfigure locales
+
+echo "Installazione di git"
+sudo apt-get install git
+
+echo "Installazione di gcc"
+sudo apt-get install gcc
+
+echo "Installazione di make"
+sudo apt-get install make
+
+echo "Installazione di librerie di supporto"
+sudo apt-get install libssl-dev libreadline-dev zlib1g-dev
+
+echo "Installazione di nodes"
+sudo apt-get install nodejs

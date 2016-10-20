@@ -1,0 +1,2 @@
+echo "Installo la versione 4.2.1 di rails"
+gem install rails -v 4.2.1

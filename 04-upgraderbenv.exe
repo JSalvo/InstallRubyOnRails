@@ -1,0 +1,3 @@
+echo "Upgrade di rbenv, chiaramente appena dopo la sua installazione non è necessario, ma per verificare se funziona ..."
+cd ~/.rbenv
+git pull

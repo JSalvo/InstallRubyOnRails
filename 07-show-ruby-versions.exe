@@ -1,0 +1,2 @@
+echo "Elenco le varie versioni disponibili di ruby"
+rbenv install -l

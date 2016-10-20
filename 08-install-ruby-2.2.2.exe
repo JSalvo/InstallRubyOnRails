@@ -1,0 +1,5 @@
+echo "Installo la versione 2.2.2 di ruby"
+rbenv install 2.2.2
+
+echo "Imposto la versione 2.2.2 di ruby come globale"
+rbenv global 2.2.2

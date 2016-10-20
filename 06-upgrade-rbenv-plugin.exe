@@ -1,0 +1,3 @@
+echo "Aggiornamento di ruby-build, anche in questo caso subito dopo l'installazione non serve, ma testo lo script ..."
+cd ~/.rbenv/plugins/ruby-build
+git pull

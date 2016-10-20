@@ -1,0 +1,2 @@
+echo "Verifico che rbenv sia stato installato correttamente"
+type rbenv
