@@ -1,0 +1,2 @@
+echo "Creazione della directory ~/.rbenv"
+mkdir ~/.rbenv
