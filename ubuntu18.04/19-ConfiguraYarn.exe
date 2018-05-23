@@ -1,0 +1,5 @@
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+echo "Importante!!! Eseguire 'sudo apt-get update' altrimenti, viene installata la versione di yarn pacchettizzatain ubuntu, che non è cosa buona"
+sudo apt-get update

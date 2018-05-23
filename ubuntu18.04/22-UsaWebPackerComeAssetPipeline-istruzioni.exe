@@ -1,0 +1,6 @@
+echo "Inserire nel gemfile webpack"
+echo "	gem 'webpacker'" 
+echo "Installa la gemma"
+echo "	bundle install"
+echo "Esegui il seguente codice nell'applicazzione rails per il setup di webpack"
+echo "	bundle exec rails webpacker:install"
