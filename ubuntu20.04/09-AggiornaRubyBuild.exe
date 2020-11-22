@@ -1,0 +1,2 @@
+cd "$(rbenv root)"/plugins/ruby-build
+git pull

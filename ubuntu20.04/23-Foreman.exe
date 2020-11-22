@@ -1,0 +1,6 @@
+echo "Inserire nel gemfile, foreman, un'applicazione che permette l'esecuzione "
+echo "di un arbitrario numero di comandi allo stesso tempo, nello stesso terminale. "
+echo "Utile per avviare contemporanemanete, in fase di sviluppo, il webserver ruby e "
+echo "il webserver che fornisce le pagine Angular (bin/webpack-dev-server)."
+echo ""
+echo "	gem 'foreman'"

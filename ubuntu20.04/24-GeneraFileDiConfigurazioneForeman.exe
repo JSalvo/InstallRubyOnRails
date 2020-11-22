@@ -1,0 +1,7 @@
+echo "rails: bundle exec rails server" >> Procfile
+echo "webpack: bin/webpack-dev-server" >> Procfile
+
+echo "Copiare il file Procfile, che verrà generato alla fine di questo script"
+echo "nella directory contenente il programma ruby"
+echo "Per avviare contemporaneamente i comandi elencati nel procfile, digitare poi:"
+echo "	foreman start"
