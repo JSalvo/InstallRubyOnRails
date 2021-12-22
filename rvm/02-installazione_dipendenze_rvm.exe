@@ -1,0 +1,1 @@
+sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev

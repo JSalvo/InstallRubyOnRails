@@ -1,0 +1,2 @@
+echo "E' possbile che si debba loggarsi e sloggarsi dalla shell"
+rvm -v

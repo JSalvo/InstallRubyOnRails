@@ -1,0 +1,3 @@
+rvm install 3.0.3 
+echo "E' possibile che sia necessario eseguirlo due volte (compilazione e installazione)
+rvm install 3.0.3

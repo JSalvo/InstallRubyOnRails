@@ -1,0 +1,1 @@
+echo "source ~/.rvm/scripts/rvm" >> ~/.bashrc
